@@ -3,31 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Website Tugas</title>
-    <link rel="stylesheet" href="css/styles.css">
+    <title>Daftar Tugas Saya</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <div class="container">
-        <header>
-            <h1>Muhammad Varza</h1>
-            <p>NPM 51422166</p>
-            <p>Kelas 3IA12</p>
+        <!-- Header Sekolah -->
+        <header class="school-header">
+            <h1>SMA Negeri 1 Bekasi</h1>
+            <button id="modeToggle">
+                <i class="fas fa-sun"></i>
+            </button>
         </header>
-        <div class="profile">
-            <img src="path/to/profile.jpg" alt="Foto Profil" class="profile-pic">
-        </div>
-        <div class="tasks">
-            <h2>Daftar Tugas</h2>
+
+        <!-- Info Pribadi -->
+        <section class="info">
+            <p>Nama: [Nama Anda]</p>
+            <p>Nomor Siswa: [Nomor Siswa]</p>
+            <p>Kelas: [Kelas]</p>
+        </section>
+
+        <!-- Daftar Tugas -->
+        <section class="task-list">
+            <h3>Tugas Saya</h3>
             <ul>
-                <li>Tugas 1: Matematika</li>
-                <li>Tugas 2: Fisika</li>
-                <li>Tugas 3: Kimia</li>
-                <!-- Tambahkan tugas lainnya di sini -->
+                <li>Tugas 1: [Deskripsi tugas]</li>
+                <li>Tugas 2: [Deskripsi tugas]</li>
+                <li>Tugas 3: [Deskripsi tugas]</li>
             </ul>
-        </div>
-        <button id="mode-toggle">Toggle Mode</button>
+        </section>
+
+        <!-- Footer Kontak -->
+        <footer>
+            <p>Nomor Telepon: [Nomor Telepon]</p>
+            <p>Alamat Rumah: [Alamat Rumah]</p>
+            <p>Email: [Email Anda]</p>
+        </footer>
     </div>
     <script src="js/script.js"></script>
 </body>
 </html>
-
