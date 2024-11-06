@@ -6,12 +6,21 @@
     <title>Daftar Tugas Saya</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        a:link {
+            color: black;
+            text-decoration: none;
+        }
+        a:visited {
+            color: #4CAF50;
+        }
+    </style>
 </head>
 <body>
     <div class="container">
         <!-- Header Sekolah -->
         <header class="school-header">
-            <h1>SMA Negeri 1 Bekasi</h1>
+            <h1>Universitas Gunadarma</h1>
             <button id="modeToggle">
                 <i class="fas fa-sun"></i>
             </button>
@@ -19,26 +28,28 @@
 
         <!-- Info Pribadi -->
         <section class="info">
-            <p>Nama: [Nama Anda]</p>
-            <p>Nomor Siswa: [Nomor Siswa]</p>
-            <p>Kelas: [Kelas]</p>
-        </section>
+            <p>Nama     : Muhammad Varza Andi Zainuri</p>
+            <p>Kelas    : 3IA12</p>
+            <p>NPM      : 51422166</p>
+        </section><br>
 
         <!-- Daftar Tugas -->
         <section class="task-list">
             <h3>Tugas Saya</h3>
             <ul>
-                <li>Tugas 1: [Deskripsi tugas]</li>
-                <li>Tugas 2: [Deskripsi tugas]</li>
-                <li>Tugas 3: [Deskripsi tugas]</li>
+                <li><a href="/html/programjahat.html">
+                    Tugas 1 : Program Jahat
+                </a></li>
+                <!-- <li>Tugas 2: [Deskripsi tugas]</li> -->
+                <!-- <li>Tugas 3: [Deskripsi tugas]</li> -->
             </ul>
         </section>
 
         <!-- Footer Kontak -->
         <footer>
-            <p>Nomor Telepon: [Nomor Telepon]</p>
-            <p>Alamat Rumah: [Alamat Rumah]</p>
-            <p>Email: [Email Anda]</p>
+            <p>Telepon : 0812 9509 2433</p>
+            <p>Email : <a href="mailto:muhammadvarza1905@gmail.com">muhammadvarza1905@gmail.com</a></p>
+            <!-- <p>Alamat Rumah: [Alamat Rumah]</p> -->
         </footer>
     </div>
     <script src="js/script.js"></script>
